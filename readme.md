@@ -1,3 +1,3 @@
-# Entrega GitHub
+Entrega GitHub
 
-Entrega para Clase HitHub
+Página de prueba para ejercicios con GitHub
