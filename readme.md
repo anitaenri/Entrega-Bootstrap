@@ -1,3 +1,3 @@
 # Entrega GitHub
 
-Entrega para Clase HitHub
+Entrega para Clase GitHub
