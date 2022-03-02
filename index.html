@@ -4,85 +4,173 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Demo Entrega GitHub</title>
+    <title>Algunos Libritos</title>
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <h5 style="color:white"> ☰ Libritos de estos señores</h5>
-        <nav>
-          <ul style="text-decoration: none;">
-            <li><a href="#">Otros Autores</a></li>
-            <li><a href="#">Música</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contáctanos</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Libritos de estos señores | </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item">
+              <a class="nav-link disabled">Música</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Otros Autores
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+                <li class="nav-item">
+              <a class="nav-link" href="micuenta.html">Mi Cuenta</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contáctanos</a>
+            </li>
           </ul>
-        </nav>
-        <span>☰</span>
+          <form class="d-flex">
+            <input class="form-control me-2" type="Buscar" placeholder="Buscar Contenido" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
       </div>
-    </header>
+    </nav>
 
     <main>
       <section class="hero">
         <h1>Biblioteca Digital</h1>
-        <p class="hero__description">
+        <p class="lead">
           Descarga las obras completas de Arthur Schopenhauer, Friedrich Nietzsche y Fiódor Dostoyevski.
         </p>
       </section>
-
-      <section class="trends">
-        <h2 a class="trends__item--big">
-          <a href="https://www.youtube.com/watch?v=3C14VKeGyuk" style="text-decoration: none; color: black;">
-            Watch ⏩ The Fantastic Flying Books of Mr. Morris Lessmore </a>
-          </h2>
-        
-        <div class="trends__item">
-        <img src="./assets/images/ecce-homo-e1636310382386.png" alt="ecce-homo" />
+<br>
+<br>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: 40px;">
+              <img src="./assets/images/9788525406965.jpg" class="card-img-top" alt="ecce-homo">
+              <div class="card-body">
+                <h5 class="card-title" style="padding-left:0px;">Ecce homo</h5>
+                <p class="card-text">Cómo se llega a ser lo que se es es uno de los últimos libros del filósofo alemán Friedrich Nietzsche y está considerado como uno de los más agudos y desesperados retratos autobiográficos de la literatura moderna. </p>
+                <a href="#" class="btn btn-primary">Descargar</a>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: 40px;">
+              <img src="./assets/images/Los-hermanos-Karamazov.jpg" class="card-img-top" alt="ecce-homo">
+              <div class="card-body">
+                <h5 class="card-title" style="padding-left:0px;">Los hermanos Karamázov</h5>
+                <p class="card-text">Última novela del escritor ruso Fiódor Dostoyevski, publicada en 1880. El escritor pasó casi dos años escribiendo la obra, que se publicó de forma seriada en El Mensajero Ruso de enero de 1879 a noviembre de 1880. Dostoyevski murió a menos de cuatro meses de su publicación. </p>
+                <a href="#" class="btn btn-primary">Descargar</a>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: 40px;">
+              <img src="./assets/images/tolstoi.jpg" class="card-img-top" alt="ecce-homo">
+              <div class="card-body">
+                <h5 class="card-title" style="padding-left:0px;">La sonata a Kreutzer</h5>
+                <p class="card-text">Novela corta de León Tolstói, que toma su título de la composición homónima para violín y piano de Ludwig van Beethoven dedicada a Rodolphe Kreutzer. La obra de Tolstói se publicó en 1889 y fue censurada al poco tiempo por las autoridades rusas. </p>
+                <a href="#" class="btn btn-primary">Descargar</a>
+              
+              </div>
+            </div>
+          </div>
+          <br>
         </div>
-        
-        <div class="trends__item">
-        <img src="./assets/images/Los-hermanos-Karamazov.jpg" alt="Los-hermanos-Karamazov" />
+        <br>
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: 40px;">
+              <img src="./assets/images/54584436--624x9421.jpg" class="card-img-top" alt="ecce-homo">
+              <div class="card-body">
+                <h5 class="card-title" style="padding-left:0px;">El arte de tener razón</h5>
+                <p class="card-text">Esta obra se configura como un estudio del filósofo alemán sobre la dialéctica erística, o el arte de tener razón en un diálogo. Enumera 38 estratagemas útiles para atacar sin exclusiones de golpes a la tesis del oponente y defender la nuestra expuesta. </p>
+                <a href="#" class="btn btn-primary">Descargar</a>
+               
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: 40px;">
+              <img src="./assets/images/1200x1200bb.jpg" class="card-img-top" alt="ecce-homo">
+              <div class="card-body">
+                <h5 class="card-title" style="padding-left:0px;">Así habló Zaratustra</h5>
+                <p class="card-text">Un libro para todos y para nadie,​ escrito entre 1883 y 1885 considerado su obra maestra. Lucha con el nihilismo y lo supera. La nada, lo negativo, lo pasivo amenazan al superhombre, por lo que es imprescindible defender determinados valores. </p>
+                <a href="#" class="btn btn-primary">Descargar</a>
+                  </div>
+                </div>
+              <br>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: 40px;">
+              <img src="./assets/images/8e8ec90124fa1253b013d134e01b67cd.jpg" class="card-img-top" alt="ecce-homo">
+              <div class="card-body">
+                <h5 class="card-title" style="padding-left:0px;">Crimen y castigo</h5>
+                <p class="card-text">Novela de carácter psicológico escrita por el autor ruso Fiódor Dostoyevski. Fue publicada por primera vez en la revista El mensajero ruso, en 1866 y publicada después como libro.​​ Se considera una de las novelas más influyentes de la literatura rusa </p>
+                <a href="#" class="btn btn-primary">Descargar</a>
+               
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="trends__item">
-        <img src="./assets/images/tolstoi.jpg" alt="Sonata a Kreutzer" />       
-        </div>
+  
+      <br>
+      <br>
+      <br>
+      <div>
+        <h6 style="padding-left:15px">Otros Autores</h6>
+        <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Søren Kierkegaard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hermann Hesse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Aldous Huxley</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">George Orwell</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Franz Kafka</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sigmund Freud</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Albert Camus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ernest Hemingway</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">León Tolstói</a>
+        </li>
+      </ul>
+    </div>
 
-        <div class="trends__item">
-        <img src="./assets/images/maxresdefault.jpg" alt="Crimen y Castigo" />
-        </div>
+    <br>
 
-      </section>
-
-      <section style="background-color: rgb(235, 235, 235); 
-      margin-top: 70px;
-      padding-left: 30px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      text-align: left;
-      margin-left: 0%;
-      font-size: medium;"
-      > Otros Autores
-        <style>
-          ul.navega li {
-                display: inline;
-          }
-        </style>
-        <ul class="navega">
-        <li>Søren Kierkegaard</li>
-        <li>Hermann Hesse</li>
-        <li>Aldous Huxley</li>
-        <li>George Orwell</li>
-        <li>Franz Kafka</li>
-        <li>Sigmund Freud</li>
-        <li>Albert Camus</li>
-        <li>León Tolstói</li>
-        <li>Ernest Hemingway</li>
-        </ul>
-      </section>
-        
-      </main>
+  </main>
 
     <footer>
       <h7> Solamente un poco de lectura @2022 </h7>

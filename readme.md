@@ -1,3 +1,3 @@
-Entrega GitHub
+Entrega Bootstrap
 
-Página de prueba para ejercicios con GitHub
+Página de prueba para ejercicios con Bootstrap
