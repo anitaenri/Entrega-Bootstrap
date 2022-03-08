@@ -1,0 +1,19 @@
+{
+  "name": "entrega-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass style.scss css/resultado.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anitaenri/Entrega-GitHub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anitaenri/Entrega-GitHub/issues"
+  },
+  "homepage": "https://github.com/anitaenri/Entrega-GitHub#readme",
+  "description": ""
+}
