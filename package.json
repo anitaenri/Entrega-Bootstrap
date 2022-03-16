@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "sass style.scss css/resultado.css -w --no-source-map -s compressed"
+    "dev": "sass scss/style.scss css/resultado.css -w --no-source-map -s compressed"
   },
   "repository": {
     "type": "git",
